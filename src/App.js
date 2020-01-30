@@ -11,7 +11,12 @@ class App extends Component {
 
 
   //Your code here:
-
+  constructor(){
+    super()
+    componentDidMount(){
+      this.handleAddTimer
+    }
+  }
 
 
 
