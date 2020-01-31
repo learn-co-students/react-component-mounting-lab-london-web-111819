@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Timer from './Timer'
+import Timer from './components/Timer'
 
 class App extends Component {
 
@@ -9,10 +9,11 @@ class App extends Component {
     timerIDs: []
   }
 
-
   //Your code here:
 
-
+componentDidMount() {
+  this.handleAddTimer()
+}
 
 
 

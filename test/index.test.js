@@ -8,7 +8,7 @@ import Adapter from 'enzyme-adapter-react-16';
 configure({ adapter: new Adapter() });
 
 import App from '../src/App';
-import Timer from '../src/Timer';
+import Timer from '../src/components/Timer';
 
 describe('<App />', () => {
   var appWrapper
